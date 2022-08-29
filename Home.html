@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="netflix_logo_icon_170919.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body class="bg-black2">
+    <header class="bg-black h25">
+        <nav class="navbar nav2 bg-black nav h-100 d-flex">
+            <a href="index.html"><img src="assets/netflix_PNG32.png" class="navbar-brand nav-item" alt=""></a>
+            <div class="list d-flex">
+                <select class="ui-select medium m-2" id="lang-switcher-header-select" tabindex="0"
+                    placeholder="lang-switcher">
+                    <option value="/eg/" data-language="ar" data-country="EG" lang="ar">العربية</option>
+                    <option selected="" value="/eg-en/" data-language="en" data-country="EG" lang="en">English</option>
+                </select>
+                <button class="btn btn-danger red h-25 mt-2">Sign out</button>
+            </div>
+        </nav>
+    </header>
+    <section class="d-flex border-0 container text-white flex-column">
+        <section class="container bg-dark2">
+            <div class="location" id="home">
+                <h1>Movies</h1>
+                <p>Movies move us like nothing else can, whether they’re <br>scary, funny, dramatic, romantic or anywhere<br>
+                    in-between. So many titles, so much to experience.</p>
+                <h1 id="home">Popular on Netflix</h1>
+                <div class="box">
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p1.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p2.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p3.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p5.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p6.PNG?raw=true"
+                            alt=""></a>
+
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p7.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p8.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p9.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p10.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p11.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p12.PNG?raw=true"
+                            alt=""></a>
+                </div>
+            </div>
+
+
+            <h1 id="myList">Trending Now</h1>
+            <div class="box">
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t1.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t2.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t3.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t4.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t5.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t6.PNG?raw=true"
+                        alt=""></a>
+            </div>
+
+            <h1 id="tvShows">TV Shows</h1>
+            <div class="box">
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv1.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv2.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv3.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv4.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv5.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv6.PNG?raw=true"
+                        alt=""></a>
+
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv7.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv8.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv9.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv10.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv11.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/tv12.PNG?raw=true"
+                        alt=""></a>
+            </div>
+
+
+            <h1 id="movies">Blockbuster Action & Adventure</h1>
+            <div class="box">
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m1.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m2.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m3.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m4.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m5.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m6.PNG?raw=true"
+                        alt=""></a>
+            </div>
+
+            <h1 id="originals">Netflix Originals</h1>
+            <div class="box">
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o3.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o4.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o5.PNG?raw=true"
+                        alt=""></a>
+                <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o6.PNG?raw=true"
+                        alt=""></a>
+            </div>
+        </section>
+
+        <footer
+            class="d-flex bg-black text-dark m-0 row justify-content-center align-items-center align-content-center">
+            <a href="#" class="mt-5 text-white text-decoration-none text-center">Questions? Contact us.</a>
+            <div class="d-flex flex-row justify-content-center align-items-center align-content-center mt-5">
+                <div class="overflow-hidden">
+                    <ul class="text-dark">
+                        <li>FAQ</li>
+                        <li>Investor Relation</li>
+                        <li>Privacy</li>
+                        <li>Speed Test</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="text-dark">
+                        <li>FAQ</li>
+                        <li>Investor Relation</li>
+                        <li>Privacy</li>
+                        <li>Speed Test</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="text-white">
+                        <li>FAQ</li>
+                        <li>Investor Relation</li>
+                        <li>Privacy</li>
+                        <li>Speed Test</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="text-dark">
+                        <li>FAQ</li>
+                        <li>Investor Relation</li>
+                        <li>Privacy</li>
+                        <li>Speed Test</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mx-5">
+                <select class="ui-select medium m-2" id="lang-switcher-header-select" tabindex="0"
+                    placeholder="lang-switcher">
+                    <option value="/eg/" data-language="ar" data-country="EG" lang="ar">العربية</option>
+                    <option selected="" value="/eg-en/" data-language="en" data-country="EG" lang="en">English</option>
+                </select>
+
+                <p>Netflix Egypt</p>
+            </div>
+
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+            integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
