@@ -24,6 +24,8 @@ nav{
     background-image: url("/assets/EG-en-20220822-popsignuptwoweeks-perspective_alpha_website_small.jpg") !important;
     height: 700px !important;
     width: 100% !important;
+    background-position: center !important;
+    background-size: contain;
     position: relative !important;
     border-bottom: solid 2px rgb(29, 29, 29);
 }
