@@ -76,16 +76,14 @@ footer ul{
     height: 45%;
 }
 @media (max-width:950px) {
-    /* .first{
-        flex-direction: column;
-        font-size: 10px !important;
-    } */
+
     .first h1{
         font-size: 25px !important;
         width: 100% !important;
     }
     .btn2{
-        font-size: 7px !important;
+        font-size: 6px !important;
+        padding: 8px !important;
         width: 50% !important;
         text-align: center !important;
     }
