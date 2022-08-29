@@ -75,6 +75,9 @@ footer ul{
     width: 43%;
     height: 45%;
 }
+.input-group{
+  border-radius: 0% !important;
+}
 @media (max-width:950px) {
 
     .first h1{
